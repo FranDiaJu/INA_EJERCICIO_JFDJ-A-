@@ -56,6 +56,14 @@ class f {
     - Ejercicio
     - Comandos
 
+## ENLACES
+Dentro de un párrafo
+podemos poner Links a 
+[otros archivos MarkDown en mi repo](pantallas.md),
+Links a archivos normales en mi repo; 
+ver [ejemplo.html](/ejemplo.html)
+o una ruta HTTPS [INA](https://www.ina.ac.cr)
+
 ## ENCABEZADO de segundo nivel H2
 
 ### ENCABEZADO de tercer nivel H3
