@@ -1,10 +1,10 @@
-# Yet Another Markup Language, TAB en la nueva línea
-name: Ejemplo de Acciones
+#Yet Another Markup Lenguage, TAB en la nueva linea
+name: Ejemplo de acciones
 on: [push]
 jobs:
-  Primer-Gitbub-Actions:
-    runs-on: ubunto-latest
+Primer-Github-Actions:
+  runs-on: ubuntu-latest
     steps:
       - run: echo "Bienvenido a GITHUB Actions"
       - run: echo "Ejecutando en ${{ runner.os }}"
-      - run: echo "Datos de rama ${{ github.ref}} de ${{ github.repository }}"
+      - run: echo "Datos de rama ${{ github.ref }} de ${{github.repository}}"
