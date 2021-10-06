@@ -11,5 +11,5 @@ jobs:
        - name: Extraer código 
          uses: actions/checkout@v2
        - run: echo "El repositorio ha sido clonado al equipo"
-       - name: listar los acrhivos del repo
+         name: listar los acrhivos del repo
        - run: ls ${{ github.workspace }}
